@@ -28,7 +28,7 @@ jobs:
                   host: 'https://demotestrail184.testrail.io'
                   username: 'giahuy1842001@gmail.com'
                   password: 'Test123456@'
-                  project_id: 1
+                  project: 'demo-project'
                   run_id: 1
                   case_matcher: 'name'
                   report_file_path: 'test-results/junit-report.xml'
