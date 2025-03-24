@@ -22,3 +22,14 @@ jobs:
                   name: playwright-report
                   path: playwright-report/
                   retention-days: 30
+            - name: Execute TRCLI Action
+              uses: gurock/trcli-action@main
+              with:
+                  host: 'https://demotestrail184.testrail.io'
+                  username: 'giahuy1842001@gmail.com'
+                  password: 'Test123456@'
+                  project_id: 1
+                  run_id: 1
+                  case_matcher: 'name'
+                  report_file_path: 'test-results/junit-report.xml'
+                  auto_create_cases_yes: 'false'
